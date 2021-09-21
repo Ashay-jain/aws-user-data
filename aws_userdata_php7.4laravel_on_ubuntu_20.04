@@ -1,0 +1,5 @@
+#!/bin/bash
+apt update -y
+apt install -y php php-cli php-fpm php-json php-common php-mysql php-zip
+apt install -y php-xml php-pear php-bcmath php-gd php-mbstring php-curl
+apt-get install -y php7.4-{bcmath,bz2,intl,gd,mbstring,mysql,zip,common}
